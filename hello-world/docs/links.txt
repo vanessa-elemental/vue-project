@@ -1,0 +1,17 @@
+
+INSTALLATION ( https://tailwindcss.com/docs/installation )
+
+
+1) Install NODE.JS -> Tailwind CSS requires Node.js 12.13.0 or higher.
+
+2) npm init -> create package.json
+
+3) npm install -> create node_modules
+
+4) npm install -g @vue/cli -> install VUE CLI
+
+5) npx tailwindcss-cli@latest init -> create tailwind.config.js
+
+6) npx tailwindcss-cli@latest build -o ./styles/tailwind.css  -> install TailwindCSS without postcss and autoprefixer
+
+7) Test if installation is correctly done.
