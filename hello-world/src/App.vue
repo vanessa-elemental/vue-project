@@ -1,18 +1,16 @@
 <template>
   <div id="app">
-    <div class="text-gray-500">AIXÒ ÉS UNA PROVA</div>
-    <img alt="Vue logo" src="/hello-world/src/assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Home/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Home from './components/Home.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Home
   }
 }
 </script>
@@ -20,10 +18,25 @@ export default {
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: #E5E5E5;
+  color: #2C98F0;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+}
+
+.text-muted {
+  color: #6C757D;
+}
+
+input{
+  padding: 9px 16px 7px !important;
+  background: #FFFFFF;
+  border: 1px solid #E9ECEF;
+  border-radius: 1px;
+}
+
+button {
+  background: #2C98F0 !important;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
 }
 </style>
